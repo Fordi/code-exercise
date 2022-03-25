@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React + Redux App</title>
+  </head>
+  <body>
+    <h1>Instructions</h1>
+      <h2>Fix the existing code</h2>
+      <p>When you enter a name and a course and hit the "Add Instructor" button, it should update the instructors list in the view. However, it isn't working right now, and lucky you, you get to debug it. Note: This is more of a React review challenge than a Redux one. </p>
+      <ol>
+        <li>Why is the <strong>InterviewersList</strong> component not rendering? Fix this first so that you can see the list. Hint: It's a small but important typographical error.</li>
+        <li>In the AddInterviewerForm component, the event handler has not been bound correctly. Can you fix it? There are two different and acceptable ways to do this. Refer to <a href="https://codepen.io/minae/pen/KJMYEO" target="_blank">this demo</a> -- specifically, GoodExample1 and ArrowExample2.</li>
+      </ol>
+      <h2>Update the fixed code</h2>
+      <p> For this part of the challenge, add a 'Color' field to the form, next to "Subject". Then update the code so that the background color of the instructor name renders as the color that you enter. You will need to update multiple places in the code for this to work: in the reducer, the action, and a couple of other places in addition to the form. </p>
+      <aside>Note: In the reducer, instructor.color is currently hardcoded to black (#000). When you are at this part of the challenge, remove this line completely along with the other changes.</aside>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

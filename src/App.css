@@ -1,0 +1,27 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+html {
+  font: 12pt Arial;
+  color: white;
+  background-color: #222;
+}
+.interviewer-list {
+  padding: 0;
+}
+.interviewer-list li p {
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+label {
+  display: flex;
+  width: 300px;
+}
+label * {
+  flex: 1 1  auto;
+}
+label input {
+  flex: 0 0 auto;
+}
