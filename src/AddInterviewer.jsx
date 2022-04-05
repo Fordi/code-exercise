@@ -1,6 +1,6 @@
 import React, { useCallback, useRef } from 'react';
 
-const AddInterviewerForm = ({
+export default ({
   addInterviewer,
 }) => {
   const nameRef = useRef(null);
@@ -26,10 +26,8 @@ const AddInterviewerForm = ({
         <span>Subject:</span>
         <input id="course" type="text" ref={subjectRef} />
       </label>
-      
+
       <button type="submit">Add Interviewer</button>
     </form>
    );
 };
-
-export default AddInterviewerForm;

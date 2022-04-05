@@ -1,7 +1,7 @@
-import * as React from 'react';
+import React from 'react';
 import Interviewer from './Interviewer';
 
-const InterviewerList = ({ interviewers = [] }) => (
+export default ({ interviewers = [] }) => (
   <ul className="interviewer-list">
     {interviewers.map((interviewer) => (
       <li key={interviewer.id}>
@@ -10,5 +10,3 @@ const InterviewerList = ({ interviewers = [] }) => (
     ))}
   </ul>     
 );
-
-export default InterviewerList;

@@ -28,6 +28,4 @@ const mapDispatchToProps = dispatch => ({
   addInterviewer: (...args) => dispatch(addInterviewer(...args))
 });
 
-const App = connect(mapStateToProps, mapDispatchToProps)(AppComponent);
-
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(AppComponent);
